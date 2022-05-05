@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <h1>Exercício IMC</h1>
+        <p>Resolva os exercícios a seguir alterando o arquivo script.js</p>
+        <ol>
+            <li>
+                Implemente na função 'IMC' o cálculo do número. 
+                <br>A fórmula é peso / (altura * altura).
+                <br>Não esqueça que a função IMC deve retornar esse valor.
+            </li>
+            <li>
+                De acordo com a tabela abaixo, implemente a lógica da função 
+                'faixaIMC' para, <br> recebendo o indice calculado no ex anterior 
+                como parametro, <br>retornar a faixa que a pessoa se encontra.
+            </li>
+        </ol>
+
+        <h2>Tabela IMC</h2>
+        <img src="imc1.png"><img src="imc.png">
+
+
+        <h3>Calculadora de IMC</h3>
+        <form>
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso" name="peso">
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura" name="altura">
+            <input type="button" onclick="mostrarResultadoIMC()" value="calcular IMC">
+        </form>
+        <p id="resultado"></p>
+    </body>
+</html>

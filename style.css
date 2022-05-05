@@ -1,0 +1,7 @@
+
+body{
+    font-family:Arial;
+    background: linear-gradient(to right, rgb(29, 130, 207), rgb(255, 19, 153),
+    rgb(130, 25, 143), rgb(238, 130, 238));
+    text-align: center;
+}
